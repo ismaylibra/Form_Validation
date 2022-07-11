@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>FORM-VALIDATION</title>
+</head>
+<body>
+    <div id="all-div" class="mt-4">
+        <div class="container">
+            <form id="validation" class="text-center">
+                <label class="mb-4">Enter Your Username</label><br>
+                <input id="username" type="text"  placeholder="Username..." required><br>
+                <label class="mt-4">Enter Your Password</label><br>
+                <input id="pw" type="password" placeholder="Password..." required min="6"><br>
+                <label class="mt-4">Enter Your Email</label><br>
+                <input id="mail" type="email" placeholder="Email..." required><br>
+                <button id="login" class="btn btn-primary mt-4">Log in</button>
+                <h1>Username: <span id="un"></span></h1>
+                <h1>Email: <span id="em"></span></h1>
+            </form>
+            
+        </div>
+    </div>
+    <script src="assets/JS/app.js"></script>
+</body>
+</html>
